@@ -1,5 +1,5 @@
 <template lang="en">
-  <header class="banner">
+  <header>
     <h1>Hannah Scooler</h1>
     <section class="nav-bar">
       <router-link to="/">
@@ -21,7 +21,7 @@
   </body>
   <br />
   <footer>
-    Last updated July 17th, 2023
+    <h3>Last updated July 17th, 2023</h3>
   </footer>
 </template>
 
@@ -45,7 +45,7 @@ h1 {
   font-size: 80px;
   text-align: center;
   font-weight: normal;
-  background-color: white;
+  background-color: #2f7f8a57;
   padding-top: 40px;
   padding-bottom: 40px;
   color: #2f7f8a;
@@ -56,6 +56,11 @@ h2 {
   display: inline-block;
   width: 50%;
   margin-right: 10%;
+}
+h3 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: lighter;
 }
 .nav-button {
   font-size: 40px;
@@ -96,6 +101,7 @@ p {
   font-size: 20px;
 }
 footer {
+  justify-content: center;
   text-align: center;
 }
 </style>

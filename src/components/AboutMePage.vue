@@ -6,18 +6,24 @@
       </v-card-title>
       <v-spacer></v-spacer>
       <v-card-text>
-        <p>I am currently completing my senior year at Carleton College in Minnesota, although I am a Massachusetts native.
-          More text will go here when I feel narcissistic and alive enough to write about myself.
+        <p>I am currently completing my senior year at Carleton College in Minnesota, although I am a Massachusetts native. I am working toward a 
+            major in Computer Science and a minor in Spanish. 
         </p>
         <br /><br />
-        <p>In this paragraph I will probably talk about my career goals/personal statement. 
-          eg ux/ui design and accessibility as well as making computer science a more accessible and 
-          open field, particularly for gender and racial minorities because i'm tired of white men
+        <p>My field of interest is User Experience and User Interface Design (UX/UI), especially promoting accessibility both in designs 
+            and within the field. I strive to create functional, cohesive, and accessible websites for people of all backgrounds and aims.
         </p>
         <br /><br />
-        <p>I'll probably wrap up here by talking about my hobbies (aka frisbee and reading)
-          and go into enough depth that the text lines up perfectly with the height of the image
+        <p>Outside of work and school, I love to relax with a good book (see the <router-link to="/reading">Reading page</router-link> for more information). I also participate in Carleton's 
+            club ultimate frisbee (as a captain) and club lacrosse teams.  
         </p>
       </v-card-text>
     </v-card>
 </template>
+
+<style>
+p {
+    line-height: 1;
+    margin-bottom: 10px;
+}
+</style>
