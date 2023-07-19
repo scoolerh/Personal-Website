@@ -1,5 +1,5 @@
 <template>
-    <img :class="isMobile ? 'mobile-class' : 'other-class'" src="../assets/profile.jpg" alt="Profile Picture">
+    <img v-if="!isMobile" src="../assets/profile.jpg" alt="Profile Picture">
     <v-card elevation="0">
       <v-card-title>
         <h2>Hi! I'm Hannah.</h2>
@@ -44,12 +44,7 @@ img {
   margin-left: 5%;
   margin-right: 2%;
   border-radius: 20px;
-  size: contain;
-}
-.other-class {
   width: 30%;
-}
-.mobile-class {
-  width: 80%;
+  size: contain;
 }
 </style>

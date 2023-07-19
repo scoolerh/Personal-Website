@@ -121,7 +121,7 @@ footer {
     font-size: 4vw;
   }
   .nav-button {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
 
