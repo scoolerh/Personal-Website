@@ -57,7 +57,6 @@ h2 {
   font-size: 40px;
   font-weight: normal;
   display: inline-block;
-  width: 50%;
   margin-top: 2%;
 }
 h3 {
@@ -122,7 +121,7 @@ footer {
     font-size: 4vw;
   }
   .nav-button {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 }
 
