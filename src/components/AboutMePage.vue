@@ -1,5 +1,5 @@
 <template>
-    <img src="../assets/profile.jpg" alt="Profile Picture">
+    <img v-if="!isMobile" src="../assets/profile.jpg" alt="Profile Picture">
     <v-card elevation="0">
       <v-card-title>
         <h2>Hi! I'm Hannah.</h2>
@@ -21,14 +21,28 @@
     </v-card>
 </template>
 
+<script>
+export default {
+  data() {
+    return {
+      isMobile: false
+    };
+  },
+  created() {
+    this.isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+};
+</script>
+
 <style>
 p {
-    line-height: 1;
-    margin-bottom: 10px;
+  line-height: 1;
+  margin-bottom: 10px;
 }
 img {
   height: auto;
   margin-left: 5%;
+  margin-right: 2%;
   width: 30%;
   border-radius: 20px;
   size: contain;

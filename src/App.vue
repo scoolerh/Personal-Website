@@ -92,7 +92,6 @@ button {
   float: center;
 }
 p {
-  width: 80%;
   display: inline-block;
   margin-right: 5%;
   font-size: 25px;
