@@ -20,13 +20,15 @@
 </template>
 
 <style>
-p {
-  font-size: 25px;
-  text-align: center;
-}
 .body {
   justify-content: center;
   width: 100%;
 }
-
+img {
+  height: auto;
+  margin-left: 5%;
+  width: 30%;
+  max-width: 100%;
+  border-radius: 20px;
+}
 </style>

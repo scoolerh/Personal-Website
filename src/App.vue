@@ -1,4 +1,5 @@
 <template lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <header>
     <h1>Hannah Scooler</h1>
     <section class="nav-bar">
@@ -75,12 +76,6 @@ button {
   padding: 1px 6px;
   display: inline-block;
 }
-img {
-  height: auto;
-  margin-left: 5%;
-  width: 30%;
-  border-radius: 20px;
-}
 .main {
   margin-top: 50px;
   margin-left: 10%;
@@ -98,7 +93,7 @@ p {
   width: 80%;
   display: inline-block;
   margin-right: 5%;
-  font-size: 20px;
+  font-size: 25px;
 }
 footer {
   justify-content: center;

@@ -26,4 +26,11 @@ p {
     line-height: 1;
     margin-bottom: 10px;
 }
+img {
+  height: auto;
+  margin-left: 5%;
+  width: 30%;
+  border-radius: 20px;
+  size: contain;
+}
 </style>
