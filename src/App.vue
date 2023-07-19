@@ -22,7 +22,7 @@
   </body>
   <br />
   <footer>
-    <h3>Last updated July 17th, 2023</h3>
+    <h3>Last updated July 19th, 2023</h3>
   </footer>
 </template>
 
@@ -58,7 +58,7 @@ h2 {
   font-weight: normal;
   display: inline-block;
   width: 50%;
-  margin-right: 10%;
+  margin-top: 2%;
 }
 h3 {
   font-size: 18px;
@@ -79,7 +79,7 @@ button {
   display: inline-block;
 }
 .main {
-  margin-top: 50px;
+  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
   padding-top: 20px;
@@ -96,8 +96,77 @@ p {
   margin-right: 5%;
   font-size: 25px;
 }
+a {
+  font-size: 25px;
+  color: #2f7f8a;
+}
 footer {
   justify-content: center;
   text-align: center;
+}
+/* Smaller screens */
+@media (max-width: 768px) {
+  p {
+    font-size: 5vw;
+  }
+  a {
+    font-size: 5vw;
+  }
+  h1 {
+    font-size: 15vw;
+  }
+  h2 {
+    font-size: 7vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  .nav-button {
+    font-size: 6vw;
+  }
+}
+
+/* Medium-sized screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  p {
+    font-size: 4vw;
+  }
+  a {
+    font-size: 4vw;
+  }
+  h1 {
+    font-size: 12vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  h3 {
+    font-size: 1vw;
+  }
+  .nav-button {
+    font-size: 5vw;
+  }
+}
+
+/* Larger screens */
+@media (min-width: 1025px) {
+  p {
+    font-size: 1.75vw;
+  }
+  a {
+    font-size: 1.75vw;
+  }
+  h1 {
+    font-size: 6vw;
+  }
+  h2 {
+    font-size: 3vw;
+  }
+  h3 {
+    font-size: 1vw;
+  }
+  .nav-button {
+    font-size: 2vw;
+  }
 }
 </style>

@@ -10,7 +10,7 @@
             major in Computer Science and a minor in Spanish. 
         </p>
         <br /><br />
-        <p>My field of interest is User Experience and User Interface Design (UX/UI), especially promoting accessibility both in designs 
+        <p>My field of interest is User Experience and User Interface Design (UX/UI), especially promoting accessibility both in my sites 
             and within the field. I strive to create functional, cohesive, and accessible websites for people of all backgrounds and aims.
         </p>
         <br /><br />
