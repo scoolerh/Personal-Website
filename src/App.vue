@@ -41,6 +41,8 @@ export default {
 <style>
 #app {
   font-family: "Times New Roman";
+  width: 100%;
+  height: 100vh;
 }
 h1 {
   font-size: 80px;
