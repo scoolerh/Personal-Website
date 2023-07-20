@@ -22,7 +22,7 @@
   </body>
   <br />
   <footer>
-    <h3>Last updated July 19th, 2023</h3>
+    <h3>Last updated July 20th, 2023</h3>
   </footer>
 </template>
 
@@ -78,12 +78,12 @@ button {
   display: inline-block;
 }
 .main {
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-left: 5%;
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 80%;
+  width: 90%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -92,7 +92,6 @@ button {
 }
 p {
   display: inline-block;
-  margin-right: 5%;
   font-size: 25px;
 }
 a {
@@ -126,24 +125,24 @@ footer {
 }
 
 /* Medium-sized screens */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1000px) {
   p {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   a {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   h1 {
     font-size: 12vw;
   }
   h2 {
-    font-size: 6vw;
+    font-size: 5vw;
   }
   h3 {
     font-size: 1vw;
   }
   .nav-button {
-    font-size: 5vw;
+    font-size:3vw;
   }
 }
 

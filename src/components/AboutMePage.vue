@@ -1,5 +1,6 @@
 <template>
-    <img v-if="!isMobile" src="../assets/profile.jpg" alt="Profile Picture">
+  <div class="container">
+    <img src="../assets/profile.jpg" alt="Profile Picture">
     <v-card elevation="0">
       <v-card-title>
         <h2>Hi! I'm Hannah.</h2>
@@ -18,33 +19,32 @@
             club ultimate frisbee (as a captain) and club lacrosse teams.  
         </p>
       </v-card-text>
-    </v-card>
+    </v-card>    
+  </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      isMobile: false
-    };
-  },
-  created() {
-    this.isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-  }
-};
-</script>
 
 <style>
 p {
   line-height: 1;
   margin-bottom: 10px;
 }
-img {
+.container img {
   height: auto;
-  margin-left: 5%;
-  margin-right: 2%;
   border-radius: 20px;
-  width: 30%;
-  size: contain;
+  width: 40%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    flex-direction: row;
+  }
+  .container img {
+    margin-right: 2%;
+    width: 30%;
+  }
 }
 </style>
