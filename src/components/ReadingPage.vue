@@ -6,6 +6,7 @@
     <iframe src="https://docs.google.com/spreadsheets/d/1RKoTTu7cqxKesELZOfISAc0uQJp7TXwz3Y-XMOw9c2I/edit?usp=sharing"
       width="100%"
       height="600px">
+    </iframe>
     <p>View my spreadsheet from last year:</p>
     <iframe src="https://docs.google.com/spreadsheets/d/12eXpwKyFt2kgMKDa1wiSLOigfN_fBNqogKxI253REBk/preview"
       width="100%"
