@@ -8,13 +8,7 @@
       height="600px">
     </iframe>
     <br /> <br />
-    <p>View my spreadsheet from last year:</p>
-    <iframe
-      src="https://docs.google.com/spreadsheets/d/1ks8l8k5_EXndMzKEY3rIOlYmADwzQwnDmfFLrgvCPFQ/preview"
-      width="100%"
-      height="600px"
-    >
-    </iframe>
+    <p>View my spreadsheet from <a href="https://docs.google.com/spreadsheets/u/1/d/1-f0Nulxs1oqzj1Wx2niizNMI5fTqCUN8-cudzkoqG48/preview" target="_blank">last year</a> or from <a href="https://docs.google.com/spreadsheets/u/1/d/1XoBT-Me-WhkPdAhl31X60oB0xBCLpcngPqLSMxxfr34/preview" target="_blank">2022</a></p>
   </div>
   
 </template>

@@ -22,7 +22,7 @@
   </body>
   <br />
   <footer>
-    <h3>Last updated July 20th, 2023</h3>
+    <h3>Last updated July 7th, 2024</h3>
   </footer>
 </template>
 

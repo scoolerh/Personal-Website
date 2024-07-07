@@ -7,16 +7,15 @@
       </v-card-title>
       <v-spacer></v-spacer>
       <v-card-text>
-        <p>I am currently completing my senior year at Carleton College in Minnesota, although I am a Massachusetts native. I am working toward a 
-            major in Computer Science and a minor in Spanish. 
+        <p>I recently completed my Bachelor of Arts in Computer Science at Carleton College in Minnesota, with a minor in Spanish. 
+          Within Computer Science, my field of interest is User Experience and User Interface Design (UX/UI), especially promoting 
+          accessibility both in my sites and in the field in general. I strive to create functional, cohesive, and accessible websites 
+          for people of all backgrounds and aims.
         </p>
         <br /><br />
-        <p>My field of interest is User Experience and User Interface Design (UX/UI), especially promoting accessibility both in my sites 
-            and within the field. I strive to create functional, cohesive, and accessible websites for people of all backgrounds and aims.
-        </p>
-        <br /><br />
-        <p>Outside of work and school, I love to relax with a good book (see the <router-link to="/reading">Reading page</router-link> for more information). I also participate in Carleton's 
-            club ultimate frisbee (as a captain) and club lacrosse teams.  
+        <p>Outside of work and school, I love to relax with a good book (see the <router-link to="/reading">Reading page</router-link> for more information).
+          I also enjoy playing Ultimate Frisbee and spending time with my adorable nieces and nephew. I am currently located in Tucson, AZ, which is definitely
+          a big change from Minnesota! 
         </p>
       </v-card-text>
     </v-card>    

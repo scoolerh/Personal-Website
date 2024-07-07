@@ -3,8 +3,9 @@
     <div>
       <p>View my GitHub <a href="https://github.com/scoolerh" target="_blank">here</a>.</p>
       <br /> <br />
+      <p>You can view my resume below:</p>
       <iframe 
-        src="https://docs.google.com/document/d/1E71lwb5Ng6fGoYnllo795bBQAcOtS-8Gm0ohxHOcEYw/preview"
+        src="https://docs.google.com/document/d/1fstbLd4zbbX3n2kYHDZonAfGVAsUlBJRlId-Esf_cH0/preview"
         width="100%"
         height="1000px"
         allowfullscreen
